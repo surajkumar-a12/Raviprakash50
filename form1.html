@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box; 
+             font-family: "Roboto", sans-serif;
+
+        }
+        body{
+            background: #2A7B9B;
+            background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        }
+        form{
+            width: 325px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 15px;
+            border-radius: 10px;
+            color: antiquewhite;
+            background-color: rgb(83, 82, 80);
+            text-align: center
+        }
+        #s h1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .u{
+            width: 100%;
+            border: 1px solid gray;
+            border-top: solid lightgray;
+            border-bottom: gray;
+            padding: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: flex-start;
+           
+        }
+       
+        .u input{
+            width: 100%;
+            border: none;
+            color: antiquewhite;
+            background: transparent;
+            margin-left: 10px;
+        }
+        #a{
+            text-align: justify;
+            text-decoration: none;
+        }
+        #a a{
+             text-decoration: none;
+             color: #13e181;
+             
+        }
+        #j button{
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            color: antiquewhite;
+            font-weight: 450;
+            font-size: 20px;
+            background: #13e1c5;
+        }
+        #k a{
+            color: #13e181;
+        }
+        
+       
+    </style>
+</head>
+<body> 
+    <form>
+        <div id="s">
+            <h1>Login form</h1>
+        </div>
+        <div class="u">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text" placeholder="Enter you email">
+        </div>    
+        <div class="u">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="password">
+        </div>    
+        <div id="a">
+            <a href="">forgot password?</a>
+        </div>
+        <div id="j">
+            <button>Login</button>
+        </div>
+        <div id="k">
+            <p>Not a memeber <a href="">signup</a></p>
+        </div>
+    </form>
+</body>
+</html>
